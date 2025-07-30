@@ -1,12 +1,19 @@
 These directories follow the structure of Gem5 to make it more convenient for users to implement our design.
 
-Implementation
+Implementation:
+
 Run the drl_Qlearning_wu2.py by using python configs/main/drl_Qlearning_wu2.py. 
 
-Results
+
+
+Results:
+
 Please refer to the paper.
 
-Project Information
+
+
+Project Information:
+
 Copyright (c) HP-NTU Digital Manufacturing Corporate Lab, Nanyang Technological University, Singapore.
 
 If you find our model helps your research, please consider citing it: 
@@ -18,3 +25,4 @@ Contributors: Guochu Xiong, Xiangzhong Luo and Weichen Liu.
 If you have any comments, questions, or suggestions please create an issue on github or contact us via email.
 
 Guochu Xiong<guochu [DOT] xiong [AT] ntu [DOT] edu [DOT] sg>
+
