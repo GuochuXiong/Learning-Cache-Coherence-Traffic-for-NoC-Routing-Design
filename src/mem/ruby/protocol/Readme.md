@@ -1,1 +1,1 @@
-This directory keeps the same as the one in Gem5
+These files are used for CCTA to capture the metrics of cache coherence, such as CPU delay and coherence-induced message transmissions
