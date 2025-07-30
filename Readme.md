@@ -1,18 +1,26 @@
+#Leanring Cache Coherence Traffic for NoC Routing Design
+-------------------------------------------------------------------------------------------------------------
+Our work consists of two major components: (1) the Cache Coherence Traffic Analyzer (CCTA), an analysis tool fully integrated with Gem5 \cite{b17} for evaluating cache coherence performance in realistic scenarios; and (2) a DRL-based routing approach that not only optimally selects topologies and routing paths, but also integrates cache coherence features captured by CCTA into the routing design, enabling dynamic adaptation to network structure and coherence traffic characteristics.
+ 
+
+#How to use it
+-------------------------------------------------------------------------------------------------------------
+
 These directories follow the structure of Gem5 to make it more convenient for users to implement our design.
-
-Implementation:
-
-Run the drl_Qlearning_wu2.py by using python configs/main/drl_Qlearning_wu2.py. 
+Revise the codes in the src folder of Gem5 to integrate the CCTA tool for capturing metrics.
+For the routing, run the drl_Qlearning_wu2.py by using python configs/main/drl_Qlearning_wu2.py. 
 
 
 
-Results:
+#Results
+-------------------------------------------------------------------------------------------------------------
 
 Please refer to the paper.
 
 
 
-Project Information:
+#Project Information
+-------------------------------------------------------------------------------------------------------------
 
 Copyright (c) HP-NTU Digital Manufacturing Corporate Lab, Nanyang Technological University, Singapore.
 
